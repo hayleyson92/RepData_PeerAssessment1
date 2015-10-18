@@ -16,6 +16,18 @@ Show any code that is needed to
 ```r
 ##load the data
 d <- read.csv("./data/repdata-data-activity/activity.csv")
+```
+
+```
+## Warning in file(file, "rt"): cannot open file './data/repdata-data-
+## activity/activity.csv': No such file or directory
+```
+
+```
+## Error in file(file, "rt"): cannot open the connection
+```
+
+```r
 ##show a sample of the data
 head(d, 10)
 ```
